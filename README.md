@@ -58,6 +58,6 @@ The project consists of the following files:
 
 ## License
 
-This project is for educational purposes and does not include any licensing for the embedded YouTube videos.
+This project is for educational purposes and I take ownership for the embedded YouTube videos.
 
 ---
