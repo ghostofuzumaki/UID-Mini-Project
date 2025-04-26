@@ -7,9 +7,18 @@ h1.header{
     background-image: linear-gradient(to left,grey,lightgrey);
     box-shadow: 5px 5px 5px black;
 }
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+
+  .fade-in.show {
+    opacity: 1;
+  }
 body{
     background: #f645ff;
-background: radial-gradient(circle, rgba(246, 69, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(circle, rgba(246, 69, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
 }
 .grid{
     display: grid;
