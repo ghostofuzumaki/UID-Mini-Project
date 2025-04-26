@@ -1,0 +1,115 @@
+h1.header{
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    font-size: 65px;
+    font-family: Impact;
+    padding: 20px;
+    background-image: linear-gradient(to left,grey,lightgrey);
+    box-shadow: 5px 5px 5px black;
+}
+body{
+    background: #f645ff;
+background: radial-gradient(circle, rgba(246, 69, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.grid{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;   
+}
+a.hof{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 192, 75), rgb(255, 153, 0));
+    background-position: left center;
+    background-size: 200% auto;
+    border-radius: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: border-radius 600ms, background-position 800ms ease-in-out, box-shadow 600ms, color 300ms;
+    box-shadow: 5px 5px 7px rgb(225, 0, 255);
+    font-family: GtaFont;
+    font-size: 70px;
+    border: none;
+}
+a.hof:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    background-position: right center;
+    box-shadow: 3px 3px 5px rgb(255, 255, 255);
+}
+a.hos{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 192, 75), rgb(255, 153, 0));
+    background-position: left center;
+    background-size: 200% auto;
+    border-radius: 10px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: border-radius 600ms, background-position 800ms ease-in-out, box-shadow 600ms, color 300ms;
+    box-shadow: 5px 5px 7px rgb(225, 0, 255);
+    font-family: GtaFont;
+    font-size: 70px;
+    border: none;
+}
+a.hos:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    background-position: right center;
+    box-shadow: 3px 3px 5px rgb(255, 255, 255);
+}
+h1.lin1{
+    font-size: 62px;
+    text-align: center;
+    color: white;
+    font-family: impact;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px black;
+}
+h1.lin2{
+    font-size: 62px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    font-family: impact;
+    text-shadow: 2px 2px 2px black;
+}
+h1.lin3{
+    font-size: 62px;    
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    font-family: impact;
+    text-shadow: 2px 2px 2px black;
+}
+.GridFame{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+.GridShame{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+}
+@font-face{
+    font-family: GtaFont;
+    src: url(Pricedown\ V2.woff2);
+}
+iframe{
+    border: none;
+    border-radius: 10px;
+    width: 600px;
+    height: 380px;
+    box-shadow: 5px 5px 5px blue;
+}
